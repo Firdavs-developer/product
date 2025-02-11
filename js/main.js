@@ -1,4 +1,4 @@
-let elBtn = document.querySelector(".mode-btn");
+let elBtn = document.querySelector(".mode");
 
 elBtn.addEventListener("click", () => {
     if (localStorage.getItem("theme") === "dark" || (!localStorage.getItem("theme") && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
