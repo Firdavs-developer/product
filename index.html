@@ -13,15 +13,15 @@
 </head>
 <body>
     <header class="bg-white py-[23px] dark:bg-[#1F2E35]">
-        <div class="container max-w-[1280px] w-[80%] mx-auto flex justify-between">
+        <div class="container max-w-[1280px] w-[80%]  mx-auto flex justify-between items-center">
             <div class="flex gap-1 items-center">
                 <img src="./images/group.svg" alt="group">
                 <h2 class="text-[#173A56] font-bold text-3xl dark:text-white">Product</h2>    
             </div>
             
-            <div class="flex items-center gap-6">
+            <div class="md:flex items-center lg:gap-6 md:gap-4 gap-2 hidden">
                 <nav>
-                    <ul class="flex gap-6">
+                    <ul class="flex lg:gap-6 md:gap-4 gap-2">
                         <li><a class="font-poppins dark:text-white text-[#22343D] text-base font-medium" href="#">Product</a></li>
                         <li><a class="font-poppins dark:text-white text-[#22343D] text-base font-medium" href="#">Customers</a></li>
                         <li><a class="font-poppins dark:text-white text-[#22343D] text-base font-medium" href="#">Pricing</a></li>
@@ -29,12 +29,16 @@
                     </ul>
                 </nav>
                 <div>
-                    <button class="border-[#BCD0E5] py-[10px] px-6 rounded-[4px] text-[#173A56] font-semibold text-base border dark:text-white ">Sign In</button>
-                    <button class="bg-[#02897A] text-base font-semibold text-white py-[10px] px-6 rounded-[4px] dark:text-white">Sign Up</button>
+                    <button class="border-[#BCD0E5] lg:py-[10px] lg:px-6 py-2 px-1 rounded-[4px] text-[#173A56] font-semibold text-base border dark:text-white ">Sign In</button>
+                    <button class="bg-[#02897A] text-base font-semibold text-white lg:py-[10px] lg:px-6 py-2 px-1 rounded-[4px] dark:text-white">Sign Up</button>
                 </div>
                 <div>
                     <img class="mode" src="./images/theme-mode.png" alt="theme">
                 </div>
+            </div>
+
+            <div class="md:hidden block">
+                <img src="./images/menu.svg" alt="menu">
             </div>
         </div>
     </header>
